@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lesson20 Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script defer src="https://unpkg.com/vue"></script>
+    <script defer src="app.js"></script>
+</head>
+
+
+<body>
+    <div id="part1">
+        <h1>{{ msg }}</h1>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <div id="part2">
+
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <div id="part3">
+        <h1>Full Name: {{ fullName }}</h1>
+        <input type="text" v-model="firstName" placeholder="First Name">
+        <input type="text" v-model="middleName" placeholder="Middle">
+        <input type="text" v-model="lastName" placeholder="Last Name">
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div id="part4">
+        <label>1st
+            <input-contact></input-contact>
+        </label>
+        <p></p>
+        <label>2nd
+            <input-contact></input-contact>
+        </label>
+    </div>
+</body>
+
+
+</html>
